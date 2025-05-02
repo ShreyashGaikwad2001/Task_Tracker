@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .auth-form,
+  .project-list,
+  .task-list {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  input {
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .dashboard {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .project-list ul,
+  .task-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .project-list li,
+  .task-list li {
+    margin-bottom: 5px;
+  }
+  
+  .project-list li.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
